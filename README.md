@@ -1,2 +1,2 @@
 # Hello--World
-First one
+print('Hello world')
