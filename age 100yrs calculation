@@ -1,0 +1,5 @@
+age= int(input("your age"))
+year= int(input('year are we living in'))
+name= input("Your name")
+done= year + 100 - age
+print("Hey "+ name +" you're "+ str(age) +" years old and "+" you'll be 100 in "+ str(done))
