@@ -1,0 +1,40 @@
+import turtle
+
+me = turtle.Turtle()
+me.speed(0)
+
+def KK(a,b,c):
+    me.color("Green")
+    me.forward(a)
+    me.right(b)
+    me.forward(c)
+    me.left(130)
+    me.forward(80)
+    me.right(130)
+    me.forward(a)
+    me.right(50)
+    me.forward(80)
+
+KK(20,90,60)
+
+def yy(a,c):
+    me.color("Red")
+    me.left(100)
+    me.forward(80)
+    me.right(50)
+    me.forward(a)
+    me.right(130)
+    me.forward(80)
+    
+    me.color("Gold")
+    me.left(130)
+    me.forward(c)
+    me.right(90)
+    me.forward(20)
+    me.right(90)
+    me.forward(160)
+
+yy(20,60)
+
+for k in range(250):
+    print(KK(20,91,60),yy(20,60))
