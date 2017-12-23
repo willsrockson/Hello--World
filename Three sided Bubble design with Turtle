@@ -1,0 +1,70 @@
+import turtle
+
+me= turtle.Turtle()
+me.speed(-0)
+
+def zigzag():
+    me.circle(60)
+    me.right(11)
+    
+    me.forward(10)
+    me.color("Black")
+def help1():
+    me.circle(60)
+    me.right(11)
+    me.color("Yellow")
+    me.forward(10)
+    
+for i in range(200):
+    zigzag()
+    help1()
+
+
+#############################################################
+me.color("Purple")
+me.left(60)
+me.forward(180)
+
+def another_circle():
+    me.circle(60)
+    me.right(11)
+    me.forward(10)
+    me.color("Purple")
+
+def again1():
+    me.circle(60)
+    me.right(11)
+    me.color("Green")
+    me.forward(10)
+
+for a in range(200):
+    another_circle()
+    again1()
+
+
+###########################################################
+
+
+
+me.color("Blue")
+me.left(216)
+me.forward(243)
+
+
+def zigzag1():
+    me.circle(60)
+    me.right(11)
+    
+    me.forward(10)
+    me.color("Blue")
+
+def help12():
+    me.circle(60)
+    me.right(11)
+    me.color("Violet")
+    me.forward(10)
+    
+for e in range(200):
+    zigzag1()
+    help12()
+
